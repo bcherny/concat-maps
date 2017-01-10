@@ -1,0 +1,35 @@
+{
+  "name": "concat-maps",
+  "version": "1.0.0",
+  "description": "Efficiently concatenate ES6 Maps",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcherny/concat-maps.git"
+  },
+  "keywords": [
+    "es6",
+    "map",
+    "concat",
+    "concatenate",
+    "combine",
+    "merge",
+    "assign"
+  ],
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcherny/concat-maps/issues"
+  },
+  "homepage": "https://github.com/bcherny/concat-maps#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  }
+}
