@@ -1,12 +1,13 @@
 {
   "name": "concat-maps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Efficiently concatenate ES6 Maps",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
+    "prepublish": "npm run build",
     "test": "ava"
   },
   "repository": {
