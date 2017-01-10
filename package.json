@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Efficiently concatenate ES6 Maps",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
