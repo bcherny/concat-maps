@@ -15,6 +15,6 @@
     "pretty": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "es6"
+    "target": "es5"
   }
 }
